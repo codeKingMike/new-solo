@@ -8,9 +8,12 @@
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <title>SoloLearn Home</title>
 </head>
 <body>
+    <!--NAVBAR-->
     <div class="home-navbar container-fluid">
         <div class="home-nav">
             <div class="gome-nav-logo">
@@ -30,7 +33,7 @@
             </nav>
         </div>
     </div>
-
+    <!--HERO SECTION-->
     <section id="hero-section">
         <div id="hero" class="hero">
             <div class="row">
@@ -46,7 +49,127 @@
                 <div class="col-lg-6 col-md-6">
                   <img src="/images/hero.svg" alt="">
                 </div>
-                
+            </div>
+        </div>
+    </section>
+    <!--CARD SECTION-->
+    <div id="cards-section">
+        <div class="row">
+            <div class="col-lg-4 col-md-4">
+                <div class="card">
+                    <img src="/images/python.png" style="background-color: aqua;" alt="" class="card-img-top card-image">
+                    <div class="card-body">
+                        <h4 class="card title">Python Core</h4>
+                        <p class="card-text">Learn Python, one of today's most in-demand programming languages on-the-go! Practice writing Python code, collect
+                        points, & show off your skills now!</p>
+                        <a href="#" class="btn btn-lg btn-success stretched-link">Take This Course</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4">
+                <div class="card">
+                    <img src="/images/c++.png" style="background-color: aqua;" alt="" class="card-img-top card-image">
+                    <div class="card-body">
+                        <h4 class="card title">C++</h4>
+                        <p class="card-text">Our C++ tutorial covers basic concepts, data types, arrays, pointers, conditional statements, loops, functions, classes,
+                        objects, inheritance, and polymorphism.</p>
+                        <a href="#" class="btn btn-lg btn-success stretched-link">Take This Course</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4">
+                <div class="card">
+                    <img src="/images/java.png" style="background-color: aqua;" alt="" class="card-img-top card-image">
+                    <div class="card-body">
+                        <h4 class="card title">Java</h4>
+                        <p class="card-text">With our interactive Java course, you’ll learn object-oriented Java programming and have the ability to write clear and
+                        valid code in almost no time at all.</p>
+                        <a href="#" class="btn btn-lg btn-success stretched-link">Take This Course</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="view-all">
+        <a href="#" class="view-all-courses">View all courses <i class="bi bi-arrow-right"></i></a>
+        <i class="bi bi-arrow-right"></i>
+    </div>
+  </div>
+  <!--AMYTIME SECTION-->
+    <section id="anytime-section">
+        <div id="anytime-div">
+            <div class="anytime-content">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h1 class="anytime-heading">Avaliable anytime &amp; Anywhere for FREE!</h1>
+                        <div class="anytime-listing">
+                            <ul>
+                                <li><h3>Learn on the web and on the go.</h3></li>
+                                <li><h3>Available on all major devices and platforms.</h3></li>
+                                <li><h3>Always pick up where you left off.</h3></li>
+                                <li><h3>More simple and enjoyable than ever!</h3></li>
+                            </ul>
+                        </div>
+                        <div class="learners-area">
+                            <div class="learners">
+                                <span class="learners-num">42,794,803</span>
+                                <span class="learner-title">Learners</span>
+                            </div>
+                            <div class="learners">
+                                <span class="learners-num">2183</span>
+                                <span class="learner-title">Lessons</span>
+                            </div>
+                            <div class="learners">
+                                <span class="learners-num">15,666</span>
+                                <span class="learner-title">Quizzes</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="/images/hand-phone.png" alt="Android phone in hand">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--REVIEW SECTION-->
+    <section id="review-section">
+        <div id="review-area">
+            <div class="review-content">
+                <h1 class="review-heading">You are in good company.</h1>
+                <h2 class="sub-heading">Over <strong>35,000,000 learners</strong> all over the world use our apps on all types of devices.</h2>
+                <hr class="hr-line">
+                <div class="reviews">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4">
+                            <p class="review-text">Probably the best way to use my phone. This is a revolutionary way to learn code. The comments on each question/section
+                            adds a real world perspective.</p>
+                            <div class="users">
+                                <img src="/images/mat.jpg" alt="Mat Watson">
+                                <h5><strong>Mat Watson</strong></h5>
+                                <h5>Python</h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4">
+                            <p class="review-text">Wow... I mean... WOW! Boys and girls, just go for it... I mean, it's just so simple, so pretty and well organized. I've
+                            been looking for free, self learning tools all over for all kinds of stuff and this is by far, the best one. Just too
+                            good! And by the way, the community is there, always, to help.</p>
+                            <div class="users">
+                                <img src="/images/nev.jpg" alt="Nevile Ruas">
+                                <h5><strong>Nevile Ruas</strong></h5>
+                                <h5>HTML</h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4">
+                            <p class="review-text">Appreciations! Superb application with step-by-step teaching. You are making a lot of impacts especially in Ghana,
+                            Africa. I couldn't afford the university to learn to code. Thanks so much. Keep it up.</p>
+                            <div class="users">
+                                <img src="/images/online.jpg" alt="Odjer Online">
+                                <h5><strong>Odjer Online</strong></h5>
+                                <h5>Java</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
