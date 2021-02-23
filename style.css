@@ -60,3 +60,60 @@ a.sign-in {
 a.sign-in:hover {
   color: white;
 }
+/*HERO SECTION*/
+#hero-section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-heading {
+  font-size: 4em;
+  color: #222;
+  font-weight: 300;
+  word-spacing: 0.1em;
+  line-height: 1.3em;
+}
+#hero .sub-heading {
+  width: 70%;
+  color: #4f5665;
+  font-weight: 300;
+}
+.main-heading strong {
+  font-weight: bold;
+}
+.heading-button {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+#hero .start-learning {
+  background: #0ed3aa;
+  color: #fff;
+  text-align: center;
+  padding: 20px 65px;
+  border-radius: 100px;
+  font-size: 1.6em;
+  font-weight: 500;
+  margin-top: 30px;
+  box-shadow: 0px 12px 25px 0px rgb(0 199 157 / 35%);
+  transition: 0.2s linear;
+}
+#hero .start-learning:hover {
+  background: #11a687;
+}
+
+#hero .account {
+  font-size: 1.4em;
+  font-weight: 500;
+  color: #4f5665;
+  margin-top: 20px;
+}
+#hero .account:hover {
+  text-decoration: underline;
+}
+#hero img {
+  height: 740px;
+  width: 740px;
+  margin-top: -200px;
+}
