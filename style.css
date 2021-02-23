@@ -128,7 +128,7 @@ a.sign-in:hover {
   text-align: center;
   width: 80%;
   margin: auto;
-  min-height: 100vh;
+  min-height: 80vh;
 }
 .card {
   width: 485px;
@@ -211,7 +211,7 @@ a.sign-in:hover {
 /*ANYTIME SECTION*/
 #anytime-section {
   background: #333333;
-  height: 80vh;
+  height: 82.5vh;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -253,10 +253,8 @@ a.sign-in:hover {
   font-size: 1.3em;
   margin-bottom: 100px;
 }
-.right-side {
-  position: relative;
-}
 .right-side img {
-  position: absolute;
-  top: -90px;
+  position: relative;
+  top: -95px;
+  left: 50px;
 }
