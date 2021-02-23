@@ -339,3 +339,34 @@ a.sign-in:hover {
   width: 50px;
   border-radius: 50%;
 }
+/*BE A MEMBER*/
+#be-a-member {
+  height: 59vh;
+  text-align: center;
+  background: #1abc9c;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.member-content {
+  margin-bottom: 50px;
+}
+.member-content h1 {
+  font-size: 3.5em;
+  color: #fff;
+  font-weight: bold;
+  padding: 50px 0;
+}
+.member-content a {
+  font-size: 1.3em;
+  color: #333333;
+  font-weight: 700;
+  background: #fff;
+  border-radius: 5em;
+  padding: 10px 30px;
+}
+/*FOOTER*/
+footer {
+  height: 100vh;
+}
