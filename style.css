@@ -122,10 +122,89 @@ a.sign-in:hover {
   padding-bottom: 200px;
 }
 /*CARD SECTION*/
-#card-section {
+#cards-section {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
   width: 80%;
   margin: auto;
+  height: 100vh;
 }
 .card {
-  width: 500px;
+  width: 485px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.card img {
+  max-width: 80px;
+  height: auto;
+  margin: auto;
+}
+.img-container1 {
+  height: 25vh;
+  background: #204766;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+.img-container2 {
+  height: 25vh;
+  background: #406185;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+.img-container3 {
+  height: 25vh;
+  background: #263b4a;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+.card .python {
+  background: #204766;
+  margin-top: 60px;
+}
+.card .c-plus {
+  background: #406185;
+  margin-top: 60px;
+}
+.card .java {
+  background: #263b4a;
+  margin-top: 45px;
+}
+.card .title {
+  border: none;
+  font-size: 1.2em;
+  font-weight: 700;
+  margin: 10px 0;
+}
+.card-text {
+  font-size: 1.1em;
+  font-weight: 300;
+  color: #333333;
+}
+.card-body a {
+  background: #1abc9c;
+  padding: 10px 22px;
+  border-radius: 100px;
+  font-weight: 700;
+  border: 2px solid #1abc9c;
+  margin: 20px 0;
+}
+.card-body a:hover {
+  background: #fff;
+  color: #1abc9c;
+  border: 2px solid #1abc9c;
+}
+.view-all {
+  margin-top: 50px;
+  text-decoration: none;
+}
+.view-all a {
+  text-decoration: none;
+  color: #1abc9c;
+  font-size: 1.9em;
+  font-weight: 700;
+}
+.view-all a:hover {
+  color: #11a687;
 }
