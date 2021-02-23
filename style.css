@@ -128,7 +128,7 @@ a.sign-in:hover {
   text-align: center;
   width: 80%;
   margin: auto;
-  height: 100vh;
+  min-height: 100vh;
 }
 .card {
   width: 485px;
@@ -207,4 +207,56 @@ a.sign-in:hover {
 }
 .view-all a:hover {
   color: #11a687;
+}
+/*ANYTIME SECTION*/
+#anytime-section {
+  background: #333333;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 20vh;
+}
+.anytime-content {
+}
+.anytime-content .left-side {
+  margin-top: 120px;
+}
+.anytime-heading {
+  color: #fff;
+  font-weight: 700;
+  width: 70%;
+  margin-bottom: 60px;
+}
+.anytime-content li {
+  list-style-image: url("/images/check.svg");
+  color: #fff;
+}
+.anytime-content h4 {
+  margin-left: 7px;
+  line-height: 1.7em;
+}
+.anytime-listing {
+  margin-bottom: 60px;
+}
+.learners-area {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  width: 80%;
+}
+.learners-num {
+  color: #1abc9c;
+  font-size: 2.4em;
+}
+.learner-title {
+  color: #fff;
+  font-size: 1.3em;
+  margin-bottom: 100px;
+}
+.right-side {
+  position: relative;
+}
+.right-side img {
+  position: absolute;
+  top: -90px;
 }
