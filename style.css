@@ -454,11 +454,21 @@ address {
 /*COURSES PAGE*/
 #courses-navbar {
   width: 63%;
+  height: 7vh;
   /*padding: 0 20px;*/
 }
-#courses-navbar .home-nav-list {
-  margin-bottom: 50px;
+.card-container {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-
-#courses-navbar .home-nav-logo {
+.all-courses-section {
+  background-color: #f2f5f7;
+  height: 200vh;
+}
+.all-courses-content .card {
+  width: 200px;
+  height: auto;
+  padding: 15px 0;
 }
