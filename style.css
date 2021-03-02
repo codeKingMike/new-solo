@@ -451,3 +451,14 @@ address {
   margin-top: 20%;
   cursor: pointer;
 }
+/*COURSES PAGE*/
+#courses-navbar {
+  width: 63%;
+  /*padding: 0 20px;*/
+}
+#courses-navbar .home-nav-list {
+  margin-bottom: 50px;
+}
+
+#courses-navbar .home-nav-logo {
+}
