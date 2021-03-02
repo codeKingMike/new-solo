@@ -458,7 +458,7 @@ address {
   /*padding: 0 20px;*/
 }
 .card-container {
-  width: 80%;
+  width: 60%;
   margin: auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -468,8 +468,20 @@ address {
   height: 200vh;
 }
 .all-courses-content .card {
-  width: 200px;
+  width: 180px;
   height: auto;
-  padding: 15px 0;
+  padding: 15px 0 0 0;
   border-radius: 10px;
+  margin: 10px;
+}
+.all-courses-content img {
+  border-radius: 50px;
+}
+.all-courses-content .card-title {
+  font-weight: 700;
+  font-size: 1.1em;
+}
+.all-courses-content .card-text {
+  font-weight: 400;
+  font-size: 0.8em;
 }
