@@ -451,6 +451,55 @@ address {
   margin-top: 20%;
   cursor: pointer;
 }
+/*MEDIA QUERY INDEX.HTML*/
+@media only screen and (max-width: 700px) {
+  .home-navbar {
+    height: 8vh;
+  }
+  .home-nav-logo {
+    margin: 0 auto;
+    font-size: 1em;
+  }
+  .home-nav-logo a {
+    font-size: 1.6em;
+  }
+  .home-nav-logo img {
+    height: 30px !important;
+    width: 30px !important;
+  }
+  #home-nav-list {
+    display: none;
+  }
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 100px;
+  }
+  .hero-content a {
+    font-size: 1.1em !important;
+  }
+  .main-heading {
+    font-size: 1.3em;
+    margin-right: 80px;
+  }
+  h2.sub-heading {
+    font-size: 01.1em !important;
+  }
+  .hero button {
+    font-size: 1.2em !important;
+  }
+  #hero {
+    width: 100%;
+    height: 80vh;
+    padding: 50px 0;
+  }
+  #hero img {
+    width: 400px;
+    padding-bottom: 300px;
+  }
+}
 /*COURSES PAGE*/
 #courses-navbar {
   width: 63%;
