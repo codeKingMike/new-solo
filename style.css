@@ -217,8 +217,6 @@ a.sign-in:hover {
   align-content: center;
   margin-bottom: 20vh;
 }
-.anytime-content {
-}
 .anytime-content .left-side {
   margin-top: 120px;
 }
@@ -552,4 +550,14 @@ address {
 .card .move-down {
   /*padding-top: 25px;*/
   margin-top: 30px;
+}
+/*SIGN IN PAGE*/
+#sign-in-nav {
+  width: 63%;
+  height: 7vh;
+  margin: auto;
+  /*padding: 0 20px;*/
+}
+#sign-in-hero {
+  height: 100vh;
 }
