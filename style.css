@@ -589,6 +589,7 @@ address {
   }
   .review-content h2 {
     width: 90%;
+    margin: 0 auto;
     font-size: 1.7em !important;
   }
   .review-image img {
@@ -599,6 +600,21 @@ address {
   }
   .users {
     margin: 30px 0 20px 0;
+  }
+  /* MEMBER SECTION */
+  .member-content h1 {
+    font-size: 1.8em;
+  }
+  .member-content a {
+    font-size: 1.1em;
+    padding: 10px 35px;
+  }
+  /* FOOTER */
+  footer {
+    height: 60vh;
+  }
+  .footer-icons {
+    display: none;
   }
 }
 /*COURSES PAGE*/
