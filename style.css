@@ -171,7 +171,7 @@ a.sign-in:hover {
   background: #263b4a;
   margin-top: 45px;
 }
-.card .title {
+.card-title {
   border: none;
   font-size: 1.2em;
   font-weight: 700;
@@ -450,7 +450,7 @@ address {
   cursor: pointer;
 }
 /*MEDIA QUERY INDEX.HTML*/
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1100px) {
   .home-navbar {
     height: 8vh;
   }
@@ -468,6 +468,10 @@ address {
   #home-nav-list {
     display: none;
   }
+  #hero-section {
+    width: 100%;
+    margin: 0 auto;
+  }
   .hero-content {
     display: flex;
     flex-direction: column;
@@ -479,14 +483,18 @@ address {
     font-size: 1.1em !important;
   }
   .main-heading {
-    font-size: 1.3em;
-    margin-right: 80px;
+    font-size: 2em;
+    text-align: center;
+    /*margin-right: 80px;*/
   }
   h2.sub-heading {
     font-size: 01.1em !important;
+    text-align: center;
   }
   .hero button {
     font-size: 1.2em !important;
+    padding: 15px 30px;
+    width: auto;
   }
   #hero {
     width: 100%;
@@ -494,8 +502,81 @@ address {
     padding: 50px 0;
   }
   #hero img {
-    width: 400px;
+    width: 100%;
     padding-bottom: 300px;
+  }
+}
+@media (max-width: 700px) {
+  .card-content {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  #cards-section {
+    padding: 10px 0 50px 0;
+  }
+  .cards {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    border-radius: 5px;
+  }
+  .img-container1 {
+    height: 15vh;
+    background: #204766;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+  }
+  .img-container2 {
+    height: 15vh;
+    background: #406185;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+  }
+  .img-container3 {
+    height: 19.2vh;
+    background: #263b4a;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+  }
+  /* ANYTIME */
+  #anytime-section {
+    height: 145vh;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+  }
+  .anytime-heading,
+  .anytime-listing,
+  .anytime-listing li,
+  .learners-area {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .anytime-heading {
+    font-size: 2.7em;
+    width: 80%;
+    font-weight: bold;
+  }
+  .anytime-listing {
+    margin: 60px 0;
+  }
+  .anytime-content h4 {
+    margin-right: 7px;
+    line-height: 1.5em;
+  }
+  .learners-area {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .l3 {
+    margin-left: 170px;
+  }
+  .right-side img {
+    width: 100%;
+    position: relative;
+    top: 70px;
+    left: 0;
   }
 }
 /*COURSES PAGE*/
