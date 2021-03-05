@@ -64,6 +64,7 @@ a.sign-in:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0 auto;
   margin-left: 11.4%;
 }
 .hero-content {
@@ -119,7 +120,8 @@ a.sign-in:hover {
 #hero img {
   height: 640px;
   width: 640px;
-  padding-bottom: 200px;
+  padding: 0 0 200px 0;
+  width: 100%;
 }
 /*CARD SECTION*/
 #cards-section {
@@ -135,6 +137,7 @@ a.sign-in:hover {
   display: flex;
   justify-content: center;
   text-align: center;
+  flex-wrap: wrap;
 }
 .card img {
   max-width: 80px;
@@ -485,7 +488,6 @@ address {
   .main-heading {
     font-size: 2em;
     text-align: center;
-    /*margin-right: 80px;*/
   }
   h2.sub-heading {
     font-size: 01.1em !important;
@@ -507,6 +509,18 @@ address {
   }
 }
 @media (max-width: 700px) {
+  /*#hero-content {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+  }
+  .col-xl-6 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .left-side {
+    margin: 0 !important;
+  }*/
   .card-content {
     width: 100%;
     margin: 0 auto;
@@ -521,27 +535,10 @@ address {
     margin-bottom: 30px;
     border-radius: 5px;
   }
-  .img-container1 {
-    height: 15vh;
-    background: #204766;
-    border-top-left-radius: 7px;
-    border-top-right-radius: 7px;
-  }
-  .img-container2 {
-    height: 15vh;
-    background: #406185;
-    border-top-left-radius: 7px;
-    border-top-right-radius: 7px;
-  }
-  .img-container3 {
-    height: 19.2vh;
-    background: #263b4a;
-    border-top-left-radius: 7px;
-    border-top-right-radius: 7px;
-  }
+
   /* ANYTIME */
   #anytime-section {
-    height: 145vh;
+    height: 165vh;
     text-align: center;
     width: 100%;
     margin: 0;
@@ -575,7 +572,7 @@ address {
   .right-side img {
     width: 100%;
     position: relative;
-    top: 70px;
+    top: 120px;
     left: 0;
   }
   /* REVIEW SECTION */
@@ -612,6 +609,9 @@ address {
   /* FOOTER */
   footer {
     height: 60vh;
+  }
+  footer li {
+    display: none;
   }
   .footer-icons {
     display: none;
