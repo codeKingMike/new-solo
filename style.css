@@ -750,5 +750,425 @@ address {
   border: 1px solid #cce9e1;
   pointer-events: none;
 }
-.card-img-top {
+/* CODE PLAYGROUND PAGE | CODE PLAYGROUND HTML */
+/* MENU MOBILE BAR | MOBILE BAR | MENU NAV BAR */
+.pos-f-t {
+  display: none;
+}
+/* MENU BAR | BAR | MENU NAV BAR */
+#mainHeader {
+  display: flex;
+  justify-content: center;
+  background-color: #3a464b;
+}
+#mainNav {
+  background-color: #3a464b;
+}
+#mainHeader,
+header a,
+nav h1 {
+  color: #fff;
+}
+header a.nav-link:hover,
+#mainHeader a.signInNav:hover {
+  color: #fff;
+  background-color: #1abc9c;
+  border-radius: 5px;
+}
+#mainHeader a.active {
+  background-color: #1abc9c;
+  border-radius: 5px;
+}
+a.nav-link {
+  margin: 0 5px;
+  padding: 5px 10px;
+}
+#mainHeader a.signInNav {
+  background-color: #343d41;
+  border-radius: 5px;
+}
+/* COURSES CARD LANGUAGE SECTION | LEARN COURSES CARDS  */
+#courses img {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin-top: 40px;
+}
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#courses p {
+  font-size: 0.9rem;
+}
+#courses .courseBtn {
+  display: grid;
+  width: 50%;
+  justify-self: end;
+  margin-left: 150px;
+  border-radius: 50px;
+  background-color: #1abc9c;
+  border: 1px solid #1abc9c;
+}
+#courses .courseBtn:hover {
+  background-color: #17a68a;
+  border: 1px solid #17a68a;
+}
+.numberContext span {
+  color: #1abc9c;
+  font-weight: 700;
+  font-size: 1rem;
+}
+a.viewCourses {
+  color: #1abc9c;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  font-weight: 500;
+}
+#courseBg {
+  background: #f2f2f2;
+}
+#courses {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 35px;
+  row-gap: 25px;
+  width: 70%;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+.cards {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 100%;
+}
+/* hr {
+    margin-left: 0;
+    margin-right: 0;
+  } */
+.courses {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.numbers {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px 0 0;
+}
+.numberContext {
+  display: flex;
+  justify-content: center;
+  padding: 0 30px 0 0;
+}
+/* LEARN PLAY STYING | LEARN PLAY SECTION | LEARN PLAY AREA  */
+#learn {
+  padding: 20px;
+  text-align: center;
+  min-height: auto;
+  background: #3a464b;
+  color: #fff;
+}
+/* FOOTER STYING | FOOTER SECTION | FOOTER AREA  */
+#footerArea {
+  background: #eaedf1;
+  min-height: 300px;
+  padding: 35px;
+}
+#footerArea p {
+  padding-top: 20px;
+}
+#footerArea p.company {
+  font-size: 14.5px;
+}
+#footerArea i {
+  background: #1abc9c;
+  padding: 25px;
+  color: #fff;
+}
+#footerArea i.fa-twitter {
+  background: #29c0ac;
+}
+
+#footerArea i.fa-facebook-official {
+  background: #24aa98;
+}
+#footerArea i.fa-google-plus-official {
+  background: #219c8b;
+}
+#footerArea span.atSolo {
+  background: #fff;
+  padding: 35px 60px;
+  font-weight: 500;
+  color: #b4bbc2;
+  font-size: 1.4rem;
+}
+#footerArea .disGrid {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+#footerArea .disGrid a {
+  text-decoration: none;
+}
+#footerArea .disGrid span:hover {
+  color: #92989e;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+}
+#footerArea .footerUl li {
+  list-style-type: none;
+  color: #b4bbc2;
+  font-size: 15.5px;
+  font-weight: bold;
+  line-height: 1.6rem;
+}
+#footerArea .footerUl a {
+  text-decoration: none;
+  font-weight: bold;
+}
+#footerArea .footerUl li:hover {
+  color: #92989e;
+}
+#footerArea .blueText {
+  color: #86a7c3;
+}
+#footerArea .greyText {
+  color: #b2b2b4;
+}
+#footerArea h1 {
+  color: #fff;
+}
+.footerUl div:first-child {
+  font-size: 1rem;
+  color: #383737 !important;
+}
+#footerArea .soloAddress {
+  text-align: left;
+}
+#footerArea .soloAddress button {
+  background-color: #1abc9c;
+  border-radius: 5px;
+  color: #fff;
+  padding: 7px;
+  font-size: 0.9rem;
+  border: 1px solid #1abc9c;
+}
+#footerArea .soloAddress button:hover {
+  background-color: #17a68a;
+  border: 1px solid #17a68a;
+}
+#footerArea address {
+  color: #b4bbc2;
+  font-size: 14.5px;
+  font-weight: 500;
+}
+#footerArea .copyright {
+  text-align: center;
+  font-size: 0.8rem;
+  margin: 10px 0;
+}
+/*MOBILE RESPONSIVE AREA | MEDIA QUERIES | MOBILE */
+@media only screen and (max-width: 968px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+  .headingText h1 {
+    font-size: 1.8rem;
+    width: 100%;
+  }
+  .headingText {
+    width: 100%;
+  }
+  .headingText .middleText {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  #mainHeader {
+    width: 100%;
+  }
+  #courses {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 35px;
+    row-gap: 25px;
+    width: 95%;
+    margin: 0 auto;
+    padding: 30px 0;
+    /* background: #F2F2F2; */
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .footer-content {
+    display: grid;
+    grid-template-rows: 1fr;
+    text-align: center;
+    grid-gap: 30px;
+  }
+}
+/*MOBILE AREA | MEDIA QUERIES | MOBILE */
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+  .pos-f-t {
+    display: block;
+  }
+  .nav {
+    display: grid;
+    grid-template-rows: 1fr;
+  }
+  .mainNav {
+    display: none;
+  }
+  #courses {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 35px;
+    row-gap: 25px;
+    width: 95%;
+    margin: 0 auto;
+    padding: 30px 0;
+    /* background: #F2F2F2; */
+  }
+  .footer-content {
+    display: grid;
+    grid-template-rows: 1fr;
+    text-align: center;
+    grid-gap: 30px;
+  }
+}
+
+/* CODE PLAYGROUND AREA | CODE PLAYGROUND SECTION STYLING | CODE PLAYGROUND PAGE */
+#mainCodePlayDiv {
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+.mainCodePlayGrid {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+.card-header a.activeColor {
+  color: #1abc9c;
+}
+.flexCard {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+#mainCodePlay input {
+  width: 80%;
+}
+.btnChange {
+  background-color: #1abc9c;
+  color: #fff;
+  font-weight: 700;
+}
+.flexCard span {
+  background-color: #1abc9c;
+  color: #fff;
+  font-weight: 700;
+}
+.flexRightCard {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 15px;
+}
+.cardCenter h5 {
+  padding: 15px 15px 0 15px;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+.cardCenter a.adBtn {
+  /* color: red;
+    padding: 30px;
+    margin: 40px; */
+}
+.cardCenter a.adBtn button {
+  color: red;
+  padding: 20px 40px;
+  margin: 40px;
+  border: 1px solid #1abc9c;
+  border-radius: 5%;
+  background-color: #1abc9c;
+  color: #fff;
+}
+.cardCenter .web {
+  font-size: 1.8rem;
+}
+.hotTodayText {
+  font-size: 0.8rem;
+}
+.context {
+  display: grid;
+  grid-template-rows: 1fr;
+  text-decoration: none;
+  color: grey;
+}
+.context a {
+  color: gray;
+  padding: 0 0 5px 0;
+  text-decoration: none;
+}
+.context a span {
+  margin: 0 0 0 10px;
+  font-size: 0.8rem;
+}
+.context a span:hover {
+  color: #1abc9c;
+}
+.cardBodyFlex {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.cardBodyFlex p {
+  font-size: 0.7rem;
+  margin: 0 10px 0 0;
+}
+.cardBodyFlex .titles p {
+  color: #1abc9c;
+  margin: 0 0 0 15px;
+  font-size: 0.8rem;
+}
+.cardBodyFlex .titles .icon {
+  color: lightgray;
+  margin: 0 10px;
+  font-size: 1.3rem;
+}
+.cardBodyFlex h5 {
+  font-size: 0.8rem;
+  margin: 0 0 0 15px;
+}
+.cardBodyFlex img {
+  height: 50px;
+  width: 50px;
+}
+.cardBodyFlex img.circleThis {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+.leftSide {
+  display: flex;
+  align-items: center;
+}
+.leftSide p {
+}
+.rightSide {
+  display: flex;
+  align-items: center;
+}
+.rightSide .dateText {
+  color: lightgray;
 }
