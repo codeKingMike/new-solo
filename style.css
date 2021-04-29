@@ -1090,6 +1090,11 @@ a.viewCourses {
 #mainCodePlay input {
   width: 80%;
 }
+.searching {
+  padding: 6px 11px;
+  margin-top: 20px;
+  background-color: #1abc9c;
+}
 .btnChange {
   background-color: #1abc9c;
   color: #fff;
@@ -1160,7 +1165,7 @@ a.viewCourses {
 .cardBodyFlex .titles p {
   color: #1abc9c;
   margin: 0 0 0 15px;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 .cardBodyFlex .titles .icon {
   color: lightgray;
@@ -1170,6 +1175,7 @@ a.viewCourses {
 .cardBodyFlex h5 {
   font-size: 0.8rem;
   margin: 0 0 0 15px;
+  padding-bottom: 0.8em;
 }
 .cardBodyFlex img {
   height: 50px;
@@ -1184,7 +1190,9 @@ a.viewCourses {
   display: flex;
   align-items: center;
 }
-.leftSide p {
+.card-body p {
+  font-weight: 100;
+  font-size: 0.7rem;
 }
 .rightSide {
   display: flex;
