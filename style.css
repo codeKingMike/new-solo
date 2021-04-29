@@ -879,8 +879,8 @@ a.viewCourses {
 /* FOOTER STYING | FOOTER SECTION | FOOTER AREA  */
 #footerArea {
   background: #eaedf1;
-  min-height: 300px;
-  padding: 35px;
+  max-height: 200px;
+  /* padding: 35px; */
 }
 #footerArea p {
   padding-top: 20px;
@@ -923,6 +923,11 @@ a.viewCourses {
 .footer-content {
   display: flex;
   justify-content: space-around;
+}
+.code-footer {
+  background: #eaedf1;
+  width: 100%;
+  padding: 35px;
 }
 #footerArea .footerUl li {
   list-style-type: none;
@@ -1067,6 +1072,16 @@ a.viewCourses {
   font-weight: 200;
   margin: auto;
 }
+h4.card-title {
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 100;
+}
+h5.card-title {
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 100;
+}
 #mainCodePlayDiv {
   width: 70%;
   margin: 0 auto;
@@ -1089,15 +1104,17 @@ a.viewCourses {
 }
 #mainCodePlay input {
   width: 80%;
+  padding: 3px 50px;
 }
 .searching {
-  padding: 6px 11px;
+  padding: 10px 15px;
   margin-top: 20px;
   background-color: #1abc9c;
 }
 .btnChange {
   background-color: #1abc9c;
   color: #fff;
+  padding: 0 10px;
   font-weight: 700;
 }
 .flexCard span {
