@@ -1218,3 +1218,26 @@ h5.card-title {
 .rightSide .dateText {
   color: lightgray;
 }
+.pagination {
+  margin: auto;
+  padding: 0 5px;
+}
+.pagination a {
+  color: #999999;
+  float: inline-end;
+  padding: 1px 8px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border: 1px solid #999999;
+  margin: auto 0 auto 7px;
+  display: flex;
+  align-content: center;
+}
+.pagination a.active {
+  background-color: #17a68a;
+  color: white;
+}
+.pagination p {
+  padding-top: 25px;
+  margin-left: 7px;
+}
