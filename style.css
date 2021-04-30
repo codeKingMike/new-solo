@@ -1248,6 +1248,10 @@ h5.card-title {
   position: relative;
   grid-template-columns: 1fr 1fr 8fr;
 }
+.main-text p {
+  font-size: 0.8em;
+  font-weight: 400;
+}
 .cardBodyFlex1 {
   /* display: flex;
   flex-direction: column;
@@ -1256,10 +1260,10 @@ h5.card-title {
   padding-bottom: 2em;
 }
 .nums {
-  margin-top: -5px;
+  margin-top: -20px;
 }
-.title-question h6 {
-  font-weight: 700;
+.title-question {
+  font-weight: 600;
   text-align: justify;
 }
 .cardBodyFlex1 .image {
@@ -1270,6 +1274,7 @@ h5.card-title {
   float: left;
   padding: 2px 6px;
   background-color: #1abc9c;
+  margin-right: 7px;
 }
 .cardBodyFlex1 .name {
   position: absolute;
