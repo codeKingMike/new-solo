@@ -1096,6 +1096,10 @@ h5.card-title {
 }
 .card-header a.activeColor {
   color: #1abc9c;
+  border-left: 1px solid #dddddd;
+  border-top: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+  font-weight: 500;
 }
 .flexCard {
   display: flex;
@@ -1259,12 +1263,23 @@ h5.card-title {
 
   padding-bottom: 2em;
 }
+.greyText {
+  color: #555;
+}
+.greyText:hover {
+  background-color: #dedede;
+  color: #555;
+}
 .nums {
   margin-top: -20px;
 }
 .title-question {
   font-weight: 600;
   text-align: justify;
+}
+p.color {
+  color: #1abc9c;
+  font-size: 0.8em;
 }
 .cardBodyFlex1 .image {
   position: absolute;
