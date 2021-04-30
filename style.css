@@ -1206,7 +1206,7 @@ h5.card-title {
 }
 .leftSide {
   display: flex;
-  align-items: center;
+  align-items: ;
 }
 .card-body p {
   font-weight: 100;
@@ -1214,7 +1214,7 @@ h5.card-title {
 }
 .rightSide {
   display: flex;
-  align-items: center;
+  align-items: ;
 }
 .rightSide .dateText {
   color: lightgray;
@@ -1241,4 +1241,44 @@ h5.card-title {
 .pagination p {
   padding-top: 25px;
   margin-left: 7px;
+}
+/* DISCUSS PAGE | DISCUSS CSS | DISCUSS STYLING */
+.main-text {
+  display: grid;
+  position: relative;
+  grid-template-columns: 1fr 1fr 8fr;
+}
+.cardBodyFlex1 {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-around; */
+
+  padding-bottom: 2em;
+}
+.nums {
+  margin-top: -5px;
+}
+.title-question h6 {
+  font-weight: 700;
+  text-align: justify;
+}
+.cardBodyFlex1 .image {
+  position: absolute;
+  right: 10px;
+}
+.cardBodyFlex1 .btn-sm {
+  float: left;
+  padding: 2px 6px;
+  background-color: #1abc9c;
+}
+.cardBodyFlex1 .name {
+  position: absolute;
+  right: 80px;
+  line-height: 0.1em;
+}
+.cardBodyFlex1 img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 100px;
 }
