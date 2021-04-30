@@ -1206,7 +1206,7 @@ h5.card-title {
 }
 .leftSide {
   display: flex;
-  align-items: ;
+  align-items: center;
 }
 .card-body p {
   font-weight: 100;
@@ -1214,7 +1214,7 @@ h5.card-title {
 }
 .rightSide {
   display: flex;
-  align-items: ;
+  align-items: center;
 }
 .rightSide .dateText {
   color: lightgray;
