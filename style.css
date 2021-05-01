@@ -1324,6 +1324,11 @@ p.color {
   margin-bottom: 100px;
 }
 /* TOP LEARNERS PAGE | TOP LEARNERS | TOP LEARNERS CSS */
+
+#main-learners {
+  width: 52%;
+  margin: auto;
+}
 .courses-icons {
 }
 .courses-icons img {
