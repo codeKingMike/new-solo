@@ -1335,7 +1335,23 @@ p.color {
 #main-learners .card {
   margin: 20px 0;
 }
-.courses-icons {
+.leader-titles {
+  margin-bottom: 1.4em;
+}
+.main-title {
+  display: flex;
+  width: 100%;
+}
+.flex-this {
+  display: flex;
+}
+h4.global-text {
+  float: left;
+  width: 100%;
+  padding-right: 60px;
+}
+.leader-titles {
+  padding-left: 10px;
 }
 .courses-icons img {
   width: 20px;
