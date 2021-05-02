@@ -1388,3 +1388,8 @@ h5.color {
   margin-bottom: 1.1em;
 }
 /* BLOG PAGE | BLOG CSS PAGE | BLOG PAGE WEBPAGE */
+.home-navbar-blog {
+  padding-top: 0.7em;
+  width: 60%;
+  margin: auto;
+}
