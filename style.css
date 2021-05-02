@@ -1511,6 +1511,7 @@ h5.color {
 }
 .contact-context {
   padding-top: 5.1em;
+  padding-bottom: 1.7em;
 }
 .contact-context .card-body {
   display: grid;
@@ -1524,12 +1525,20 @@ h5.color {
 }
 .contact-context .card-body input {
   width: 100%;
+  border: 1px solid #c8d2db;
+  height: 2em;
+  border-radius: 7px;
+}
+.contact-context .card-body textarea {
+  width: 100%;
+  border: 1px solid #c8d2db;
+  border-radius: 7px;
 }
 .contact-context .card {
   width: 1050px;
 }
 .contact-context .card-title {
-  padding: 20px;
+  padding: 10px 20px 20px 20px;
   font-weight: 700;
 }
 .contact-context .card-body {
@@ -1538,6 +1547,8 @@ h5.color {
 .contact-button {
   display: inline-block;
   width: 120px;
-  font-weight: 700;
+  font-weight: 800;
   margin: 40px 0 20px 20px;
+  background-color: #2493df !important;
+  /* NEED TO ADD BACKGROUND COLOR DONT KNOW WHAT COLOR IT IS */
 }
