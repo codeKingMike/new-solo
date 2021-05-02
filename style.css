@@ -1495,3 +1495,49 @@ h5.color {
 .load-more button:hover {
   color: #57b99e;
 }
+/* CONTACT PAGE | CONTACT CSS PAGE STYLING */
+.home-nav-contact {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 77px;
+  align-content: center;
+  width: 60%;
+  margin: auto;
+}
+#contact-section {
+  height: 90vh;
+  background-color: #f2f2f2;
+}
+.contact-context {
+  padding-top: 5.1em;
+}
+.contact-context .card-body {
+  display: grid;
+  margin-top: -20px;
+}
+.contact-context .card-body label {
+  text-align: justify;
+  font-size: 0.8em;
+  font-weight: 700;
+  margin: 10px 0 5px 0;
+}
+.contact-context .card-body input {
+  width: 100%;
+}
+.contact-context .card {
+  width: 1050px;
+}
+.contact-context .card-title {
+  padding: 20px;
+  font-weight: 700;
+}
+.contact-context .card-body {
+  padding: 0 20px;
+}
+.contact-button {
+  display: inline-block;
+  width: 120px;
+  font-weight: 700;
+  margin: 40px 0 20px 20px;
+}
