@@ -1594,19 +1594,97 @@ h5.color {
   font-weight: 400;
 }
 
-
-
-
-
-
-
-@media screen and (max-width: 992px) {
-  .column {
-    width: 50%;
+@media screen and (max-width: 1200px) {
+  .card-container {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0 40px;
+  }
+  .all-courses-content .card {
+    width: 160px;
+    height: 180px;
+    padding: 0;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0 7px 2px -2px gray;
+    position: relative;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+  }
+  .all-courses-content .card-body {
+    margin-top: -20px;
+    position: relative;
+  }
+  .all-courses-content .card-title {
+    font-weight: 700;
+    font-size: 0.9em;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .all-courses-content .card-text {
+    font-size: 0.7em;
+    padding: 0;
+    margin-top: -25px;
+  }
+  .all-courses-content .course-up {
+    margin-top: -40px;
+  }
+  .all-courses-content .card {
+    padding: 20px 0 0 0;
   }
 }
 
+/* MEDIA QUERY STYLING FOR SCREENS 992PX OR LESS */
+
+@media screen and (max-width: 992px) {
+  .card-container {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0;
+  }
+  .all-courses-content .card {
+    width: 140px;
+    height: 180px;
+    padding: 0;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0 7px 2px -2px gray;
+    position: relative;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+  }
+  .all-courses-content .card-body {
+    margin-top: -20px;
+    position: relative;
+  }
+  .all-courses-content .card-title {
+    font-weight: 700;
+    font-size: 0.9em;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .all-courses-content .card-text {
+    font-size: 0.7em;
+    padding: 0;
+    margin-top: -25px;
+  }
+  .all-courses-content .course-up {
+    margin-top: -40px;
+  }
+  .all-courses-content .card {
+    padding: 20px 0 0 0;
+  }
+}
+/* MEDIA QUERY STYLING FOR SCREENS 600PX OR LESS */
+
 @media screen and (max-width: 600px) {
+  /* COURSES PAGE STYLING | COURSES CSS | COURSES */
   #courses-navbar {
     height: 3.5em;
   }
@@ -1624,7 +1702,7 @@ h5.color {
     margin-top: -15px;
     height: 100%;
   }
-  .card-container {
+  /* .card-container {
     width: 90%;
     margin: auto;
     display: grid;
@@ -1633,20 +1711,45 @@ h5.color {
   }
   .all-courses-content .card {
     width: 140px;
-    height: 200px;
+    height: 180px;
     padding: 0;
     border-radius: 10px;
-    margin: 10px;
+    margin-top: 10px;
     box-shadow: 0 7px 2px -2px gray;
     position: relative;
     top: 0;
-  }
-  /* .all-courses-content .card img {
-    padding: 2px 0 0 0;
+    display: flex;
+    flex-direction: row;
   } */
-  .all-courses-content .card-title {
-    font-weight: 700;
-    font-size: .9em;
-    padding: 0;
+  .all-courses-content .card {
+    padding: 20px 0 0 0;
+  }
+  .all-courses-content .card-body {
+    margin-top: -20px;
+    position: relative;
+  }
+
+  .all-courses-section {
+    background-color: #f2f5f7;
+    height: auto;
+  }
+}
+
+/* MEDIA QUERY STYLING FOR SCREENS 527PX OR LESS */
+
+@media screen and (max-width: 527px) {
+  #all-courses .card-container {
+    width: 90%;
+    margin: auto 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    justify-items: center;
+    padding: 0 40px;
+  }
+  #all-courses .card:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
