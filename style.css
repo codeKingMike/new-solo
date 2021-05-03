@@ -1594,7 +1594,52 @@ h5.color {
   font-weight: 400;
 }
 
+/* TERMS OF USE PAGE | TERMS OF USE STYLING CSS */
+#terms-section {
+  height: auto;
+  background-color: #f2f2f2;
+}
+#terms-section .card {
+  width: 1050px;
+  margin: auto;
+}
+.terms-context {
+  padding-top: 5.1em;
+  padding-bottom: 1.7em;
+}
+.terms-context .card-body {
+  display: grid;
+  margin-top: -20px;
+}
+
+/* MEDIA QUERY FOR SCREENS THATS ARE LESS THAN 1200PX */
+
 @media screen and (max-width: 1200px) {
+  /* COURSES PAGE MEDIA QUERY */
+  #courses-navbar {
+    width: 100%;
+    justify-content: center;
+    /* margin: auto; */
+  }
+  #courses-navbar .home-nav {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+  #home-nav-list ul li {
+    font-size: 1em;
+    width: 100%;
+  }
+  #home-nav-list .container {
+    width: 100%;
+    /* margin: 0 208px; */
+  }
+  #nav-list {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr 1fr 2fr;
+    font-size: 0.7em;
+    margin-top: 1em;
+    font-weight: 400;
+  }
   .card-container {
     width: 90%;
     margin: auto;
