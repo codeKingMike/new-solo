@@ -1537,6 +1537,7 @@ h5.color {
 }
 .contact-context .card {
   width: 1050px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .contact-context .card-title {
   padding: 10px 20px 20px 20px;
@@ -1555,20 +1556,28 @@ h5.color {
 }
 
 /* CARD 1 */
-.info-context .card-body {
-  padding: 7px 20px 20px 20px;
-}
 .info-context .card {
   width: 1050px;
   margin: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.info-context .card-body {
+  padding: 7px 20px 40px 20px;
+  text-align: start;
 }
 .info-context .card-title {
   font-weight: 700;
+}
+.info-context .card-text {
+  font-weight: 700;
+  font-size: 1em;
+  padding-top: 0.9em;
 }
 .info-context address {
   color: #000;
   text-align: start;
   margin-top: 10px;
+  font-weight: 300;
 }
 .info-context .green-btn {
   background: none;
@@ -1576,4 +1585,8 @@ h5.color {
   margin: 0;
   border: none;
   color: #1fbba6;
+}
+.info-context a {
+  text-decoration: none;
+  font-weight: 400;
 }
