@@ -1593,3 +1593,60 @@ h5.color {
   text-decoration: none;
   font-weight: 400;
 }
+
+
+
+
+
+
+
+@media screen and (max-width: 992px) {
+  .column {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #courses-navbar {
+    height: 3.5em;
+  }
+  #courses-navbar .home-nav {
+    padding-top: 4.5px;
+  }
+  .home-nav-logo a {
+    font-weight: 400;
+  }
+  .home-nav-logo {
+    font-weight: 400;
+  }
+  #courses-navbar .home-nav {
+    font-weight: 400;
+    margin-top: -15px;
+    height: 100%;
+  }
+  .card-container {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0;
+  }
+  .all-courses-content .card {
+    width: 140px;
+    height: 200px;
+    padding: 0;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 7px 2px -2px gray;
+    position: relative;
+    top: 0;
+  }
+  /* .all-courses-content .card img {
+    padding: 2px 0 0 0;
+  } */
+  .all-courses-content .card-title {
+    font-weight: 700;
+    font-size: .9em;
+    padding: 0;
+  }
+}
