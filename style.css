@@ -1505,6 +1505,7 @@ h5.color {
   width: 60%;
   margin: auto;
 }
+/* CARD 1 */
 #contact-section {
   height: 90vh;
   background-color: #f2f2f2;
@@ -1551,4 +1552,28 @@ h5.color {
   margin: 40px 0 20px 20px;
   background-color: #2493df !important;
   /* NEED TO ADD BACKGROUND COLOR DONT KNOW WHAT COLOR IT IS */
+}
+
+/* CARD 1 */
+.info-context .card-body {
+  padding: 7px 20px 20px 20px;
+}
+.info-context .card {
+  width: 1050px;
+  margin: auto;
+}
+.info-context .card-title {
+  font-weight: 700;
+}
+.info-context address {
+  color: #000;
+  text-align: start;
+  margin-top: 10px;
+}
+.info-context .green-btn {
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: none;
+  color: #1fbba6;
 }
