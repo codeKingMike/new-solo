@@ -1598,14 +1598,22 @@ h5.color {
 #terms-section {
   height: auto;
   padding: 55px 0;
+  background-color: #f2f2f2;
 }
 .terms-context .card {
   width: 80%;
   margin:0 auto;
+  padding: 15px;
   
 }
 #terms-section .card-text {
   text-align: justify;
+  font-size: 1.1em;
+  font-weight: 400;
+}
+#terms-section .card-title {
+  padding-left: 10px;
+  font-weight: 700;
 }
 
 
