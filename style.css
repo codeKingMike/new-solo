@@ -1507,7 +1507,7 @@ h5.color {
 }
 /* CARD 1 */
 #contact-section {
-  height: 90vh;
+  height: 94vh;
   background-color: #f2f2f2;
 }
 .contact-context {
@@ -1537,7 +1537,8 @@ h5.color {
 }
 .contact-context .card {
   width: 1050px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 4px 20px rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .contact-context .card-title {
   padding: 10px 20px 20px 20px;
@@ -1556,6 +1557,9 @@ h5.color {
 }
 
 /* CARD 1 */
+.info-context {
+  margin-bottom: 4em;
+}
 .info-context .card {
   width: 1050px;
   margin: auto;
