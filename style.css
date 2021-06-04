@@ -1594,25 +1594,26 @@ h5.color {
   font-weight: 400;
 }
 
-/* TERMS OF USE PAGE | TERMS OF USE STYLING CSS */
+/* TERMS OF USE PAGE | TERMS OF USE CSS STYLING */
 #terms-section {
   height: auto;
+  padding: 55px 0;
   background-color: #f2f2f2;
 }
-#terms-section .card {
-  width: 1050px;
-  margin: auto;
+.terms-context .card {
+  width: 80%;
+  margin: 0 auto;
+  padding: 15px;
 }
-.terms-context {
-  padding-top: 5.1em;
-  padding-bottom: 1.7em;
+#terms-section .card-text {
+  text-align: justify;
+  font-size: 1.1em;
+  font-weight: 400;
 }
-.terms-context .card-body {
-  display: grid;
-  margin-top: -20px;
+#terms-section .card-title {
+  padding-left: 10px;
+  font-weight: 700;
 }
-
-/* MEDIA QUERY FOR SCREENS THATS ARE LESS THAN 1200PX */
 
 @media screen and (max-width: 1200px) {
   /* COURSES PAGE MEDIA QUERY */
